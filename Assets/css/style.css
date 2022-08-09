@@ -60,7 +60,8 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*'search-engine-optimisation', 'online-reputation-management' and 'social-media-marketing' classes all had identical parameters. 
+The class 'search-engine-optimisation' was re-named to 'content' and the other two were deleted */
 .content {
     width: 75%;
     display: inline-block;
@@ -77,17 +78,20 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* '.benefit-lead', '.benefit-brand' and '.benefit-cost' had duplication of margin-bottom & color, and
+were all changed to 'benefit-new' */
 .benefit-new {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* '.benefit-lead', '.benefit-brand' and '.benefit-cost' had duplication of margin-bottom & color, and
+were all changed to 'benefit-new h3' */
 .benefit-new h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* '.benefit-lead', '.benefit-brand' and '.benefit-cost' had duplication of margin-bottom & color, and
+were all changed to 'benefit-new img' */
 .benefit-new img {
     display: block;
     margin: 10px auto;
@@ -103,11 +107,11 @@ p {
     color: #ffffff;
 
 }
-
+/* '.search-engine-optimisation img', 'online-reputation-management img' & 'social-media-marketing img' were all condensed into 'content-class img' */
 .content-class img {
     max-height: 200px;
 }
-
+/* '.search-engine-optimisation h2', 'online-reputation-management h2' & 'social-media-marketing h2' were all condensed into 'content-class h2' */
 .content-class h2 {
     margin-bottom: 20px;
     font-size: 36px;
